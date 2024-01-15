@@ -14,6 +14,7 @@ class AddDialog extends StatelessWidget {
     return WillPopScope(
       onWillPop: () async => false,
       child: Scaffold(
+        backgroundColor: Colors.yellow[100],
         body: Form(
           key: homeCtrl.formKey,
           child: ListView(
